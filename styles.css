@@ -1,0 +1,245 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 93%);
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 350px) {
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fa{
+    color: darkorange;
+    font-size: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.header-img{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 20px;
+
+}
+
+
+.ul-nav-bar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 30vw;
+    margin-left: 65vw;
+    list-style: none;
+}
+
+main{
+    position: relative;
+    top: 80px;
+    left: 15vw;
+    right: 15vw;
+    width: 70vw;
+
+}
+
+.handcrafted{
+    position:relative;
+    top: 0px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: 250px;
+
+}
+
+.handcrafted h1{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 60vw;
+    height: 130px;
+}
+
+form input{
+    width: 20vw;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+.submit-btn{
+    width: 15vw;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1c40f;
+}
+
+.submit-btn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.all{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 60vw;
+    height: 140px;
+    margin-bottom: 40px;
+}
+
+.icon{    
+    width: 50px;
+
+    
+}
+
+.texts{
+    width: 53vw;
+}
+
+.texts h2{
+    margin: 0 0 10px 100px;
+    font-size: 1.5rem;
+}
+
+.texts p{
+    margin: 10px 0 10px 100px;
+    font-size: 1rem;
+}
+
+iframe{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 50vw;
+    height: 415px;
+}
+
+.pricing{
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+.tenor, .bass, .valve{
+    border: 1px solid black;
+    width: 22vw;
+    text-align: center;
+    margin-top: 0;
+}
+
+.tenor h2, .bass h2, .valve h2{
+    background-color: hsl(0, 0%, 85%);
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.tenor button, .bass button, .valve button{
+    background-color: #f1c40f;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.tenor button:hover, .bass button:hover, .valve button:hover{
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    bottom: -60px;
+    left: 15vw;
+    right: 15vw;
+    width: 70vw;
+    height: 120px;
+    margin-top: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul{
+    position: relative;
+    top: 17px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    width: 100%;
+    list-style: none;
+    background-color: hsl(0, 0%, 85%);
+}
+
+footer li{
+    margin: 10px 20px 0 20px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+footer a{
+    background-color: hsl(0, 0%, 85%);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+footer span{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: hsl(0, 0%, 43%)
+}
+
+footer, span{
+    background-color: hsl(0, 0%, 85%);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+}
